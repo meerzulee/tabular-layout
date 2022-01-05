@@ -1,0 +1,28 @@
+{
+	"name": "directus-extension-custom-tabular",
+	"email" : "meerzulee@andro.media",
+	"version": "1.0.0",
+	"keywords": [
+		"directus",
+		"directus-extension",
+		"directus-custom-layout"
+	],
+	"directus:extension": {
+		"type": "layout",
+		"path": "dist/index.js",
+		"source": "src/index.ts",
+		"host": "^9.4.2"
+	},
+	"scripts": {
+		"build": "directus-extension build",
+		"dev": "directus-extension build --watch"
+	},
+	"devDependencies": {
+		"@directus/extensions-sdk": "9.4.2",
+		"typescript": "^4.5.4",
+		"vue": "^3.2.26",
+		"sass": "1.43.4",
+		"vuedraggable": "4.1.0",
+		"axios": "0.24.0"
+	}
+}
