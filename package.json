@@ -23,6 +23,8 @@
 		"vue": "^3.2.26",
 		"sass": "1.43.4",
 		"vuedraggable": "4.1.0",
-		"axios": "0.24.0"
+		"axios": "0.24.0",
+		"@directus/shared": "9.4.3",
+		"@types/lodash": "4.14.177"
 	}
 }
